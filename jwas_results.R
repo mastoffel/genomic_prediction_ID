@@ -1,7 +1,8 @@
 # genomic prediction results
+
 library(tidyverse)
 
-marker_effs <- read_delim("results12/marker_effects_genotypes1.txt")
+marker_effs <- read_delim("results7/marker_effects_genotypes.txt")
 marker_effs %>% 
         arrange(desc(Model_Frequency))
 
